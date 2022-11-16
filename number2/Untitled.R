@@ -1,0 +1,7 @@
+plot(1:10,col="red")
+plot(sin,-pi,2*pi)
+barplot(matrix(1:20,5),col=rainbow(5))
+pie(1:10,r=1,col=rainbow(10))
+hist(rnorm(100))
+rnorm(100)
+cor.test(1:10,10:1,method="pearson")
